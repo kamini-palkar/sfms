@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('gst_master', function (Blueprint $table) {
-            
-            $table->softDeletes();
+        Schema::table('users', function (Blueprint $table) {
+         
+            $table->string('organisation_code')->nullable();
         });
     }
 
@@ -22,10 +22,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('gst_master', function (Blueprint $table) {
-           
-
-            $table->dropSoftDeletes();
+        Schema::table('users', function (Blueprint $table) {
+            //
         });
     }
 };

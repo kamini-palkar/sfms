@@ -4,9 +4,7 @@
 
 <head>
     <base href="" />
-    <title>PMS ERP</title>
-
-
+    <title>SFMS</title>
     <meta charset="utf-8" />
     <meta name="description"
         content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
@@ -5157,18 +5155,18 @@
                                     <div class="separator my-2"></div>
                                     <!--end::Menu separator-->
                                     <!--begin::Menu item-->
-                                    <div class="menu-item px-5">
+                                    <!-- <div class="menu-item px-5">
                                         <a href="../../demo1/dist/account/overview.html"
                                             class="menu-link px-5">Profile</a>
-                                    </div>
+                                    </div> -->
                                     <!--end::Menu item-->
                                     <!--begin::Menu item-->
-                                    <div class="menu-item px-5">
+                                    <!-- <div class="menu-item px-5">
                                         <a href="../../demo1/dist/apps/projects/list.html" class="menu-link px-5">
                                             <span class="menu-text">ACL</span>
 
                                         </a>
-                                    </div>
+                                    </div> -->
                                     <!--end::Menu item-->
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"

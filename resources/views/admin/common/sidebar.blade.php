@@ -4,9 +4,8 @@
         data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
         <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
             <a href="../../demo1/dist/index.html">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
 
-                <h5 style="display:inline;color:#fff;vertical-align:middel">PMS ERP</h5>
+                <h5 style="display:inline;color:#fff;vertical-align:middel">SFMS</h5>
             </a>
 
             <div id="kt_app_sidebar_toggle"
@@ -39,16 +38,16 @@
                                     <span class="path4"></span>
                                 </i>
                             </span>
-                            <span class="menu-title">Master</span>
+                            <span class="menu-title">SFMS Master</span>
                             <span class="menu-arrow"></span>
                         </span>
                         <div class="menu-sub menu-sub-accordion">
                             <div class="menu-item">
-                                <a class="menu-link active" href="/tax-master-show">
+                                <a class="menu-link active" href="">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
-                                    <span class="menu-title">GST</span>
+                                    <span class="menu-title">USER</span>
 
                                 </a>
 
