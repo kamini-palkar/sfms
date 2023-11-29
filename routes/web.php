@@ -40,5 +40,16 @@ Route::post('/update-organisation/{id}', [App\Http\Controllers\OrganisationContr
 
 
 
+Route::get('/upload-file', function () {
+    return view('admin.Files.uploadFile');
+});
+
+
+Route::post('/upload-file', [App\Http\Controllers\FileUploadController::class, 'storeFiles'])->name('upload-file');
+
+Route::get('/show-files', [App\Http\Controllers\FileUploadController::class, 'showFile'])->name('show-files');
+
+Route::get('/delete-file/{id}', [App\Http\Controllers\FileUploadController::class, 'destroyFile'])->name('delete-file');
+
 
 ?>

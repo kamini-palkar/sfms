@@ -62,6 +62,16 @@
                                 </a>
 
                             </div>
+							<div class="menu-item">
+                                <a class="menu-link active" href="{{route('show-files')}}">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">FILES</span>
+
+                                </a>
+
+                            </div>
 
 
 
